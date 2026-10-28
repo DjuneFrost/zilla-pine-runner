@@ -1,0 +1,12 @@
+{
+  "name": "zilla-pine-runner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "description": "Runs Pine Script strategies on given candles with PineTS and returns trades, pending exits and stats. No keys, no database.",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "pinets": "0.13.1"
+  }
+}
